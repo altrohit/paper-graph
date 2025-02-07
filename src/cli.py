@@ -56,11 +56,13 @@ class PaperExplorerCLI:
         related_table = Table(title="Related Papers")
         related_table.add_column("Title", style="green")
         related_table.add_column("Year", style="yellow")
+        related_table.add_column("DOI", style="red")
 
         for paper in paper_data.get("related_papers", []):
             related_table.add_row(
-                paper.get("title", "N/A"), 
-                str(paper.get("year", "N/A"))
+            paper.get("title", "N/A"), 
+            str(paper.get("year", "N/A")),
+            paper.get("doi", "N/A")
             )
 
         self.console.print(related_table)
@@ -68,11 +70,13 @@ class PaperExplorerCLI:
         cited_table = Table(title="Cited Papers")
         cited_table.add_column("Title", style="blue")
         cited_table.add_column("Year", style="yellow")
+        cited_table.add_column("DOI", style="red")
 
         for paper in paper_data.get("cited_papers", []):
             cited_table.add_row(
                 paper.get("title", "N/A"), 
-                str(paper.get("year", "N/A"))
+                str(paper.get("year", "N/A")),
+                paper.get("doi", "N/A")
             )
 
         self.console.print(cited_table)
