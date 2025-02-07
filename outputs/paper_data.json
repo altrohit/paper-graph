@@ -1,0 +1,78 @@
+{
+    "title": "Optimal Searching of Prefetched DASH Segments in Fog Nodes: A Multi-Armed Bandit Approach",
+    "authors": [
+        "Rohit Gupta",
+        "V. Mahendran",
+        "Venkataramana Badarla"
+    ],
+    "year": 2021,
+    "related_papers": [
+        {
+            "title": "vStream IT: Video Streaming for Resource Constrained IoTs - An Optimal Control Approach",
+            "doi": "10.1109/COMSNETS59351.2024.10427461",
+            "year": 2024
+        },
+        {
+            "title": "NPROS: A Not So Pure Random Orthogonal search algorithm\u2014A suite of random optimization algorithms driven by reinforcement learning",
+            "doi": "10.1007/s11590-023-02038-0",
+            "year": 2023
+        },
+        {
+            "title": "MABSearch: The Bandit Way of Learning the Learning Rate\u2014A Harmony Between Reinforcement Learning and Gradient Descent",
+            "doi": "10.1007/s40009-023-01292-1",
+            "year": 2023
+        }
+    ],
+    "cited_papers": [
+        {
+            "title": "CooPEC: Cooperative Prefetching and Edge Caching for Adaptive 360\u00b0 Video Streaming",
+            "doi": "10.1109/ISM.2020.00019",
+            "year": 2020
+        },
+        {
+            "title": "ML-Driven DASH Content Pre-Fetching in MEC-Enabled Mobile Networks",
+            "doi": "10.23919/CNSM50824.2020.9269054",
+            "year": 2020
+        },
+        {
+            "title": "Dependable Content-Aware Prefetching for HTTP Applications over ICN as a Service",
+            "doi": "10.1109/IECON43393.2020.9254348",
+            "year": 2020
+        },
+        {
+            "title": "CoLEAP: Cooperative Learning-Based Edge Scheme With Caching and Prefetching for DASH Video Delivery",
+            "doi": "10.1109/tmm.2020.3029893",
+            "year": 2020
+        },
+        {
+            "title": "Optimizing QoE of Multiple Users over DASH: A Meta-learning Approach",
+            "doi": "10.1109/ICASSP.2019.8683246",
+            "year": 2019
+        },
+        {
+            "title": "BOLA: Near-Optimal Bitrate Adaptation for Online Videos",
+            "doi": "10.1109/TNET.2020.2996964",
+            "year": 2016
+        },
+        {
+            "title": "BOLA: Near-optimal bitrate adaptation for online videos",
+            "doi": "10.1109/INFOCOM.2016.7524428",
+            "year": 2016
+        },
+        {
+            "title": "SARA: Segment aware rate adaptation algorithm for dynamic adaptive streaming over HTTP",
+            "doi": "10.1109/ICCW.2015.7247436",
+            "year": 2015
+        },
+        {
+            "title": "Dynamic adaptive streaming over HTTP --: standards and design principles",
+            "doi": "10.1145/1943552.1943572",
+            "year": 2011
+        },
+        {
+            "title": "Probability, Markov Chains, Queues, and Simulation: The Mathematical Basis of Performance Modeling",
+            "doi": "10.2307/j.ctvcm4gtc",
+            "year": 2009
+        }
+    ]
+}
