@@ -18,3 +18,8 @@
 ```bash
 python main.py 10.1000/example_doi
 ```
+
+## TODO
+
+- [ ] Explore OpenAlex API
+- [ ] Explore Unpaywall
